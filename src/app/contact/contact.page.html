@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Contact</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list lines="full" class="ion-no-margin ion-no-padding">
+    <ion-item>
+      <ion-label position="stacked">Subject<ion-text color="danger">*</ion-text>
+      </ion-label>
+      <ion-input required type="text"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Message</ion-label>
+      <ion-textarea></ion-textarea>
+    </ion-item>
+    <div class="ion-padding">
+      <ion-button expand="block" type="submit" class="ion-no-margin">Send Message</ion-button>
+    </div>
+  </ion-list>
+</ion-content>
