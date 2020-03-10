@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>My dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Welcome, authenticaded user!</ion-card-subtitle>
+      <ion-card-title>You are now logged in.</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      This page can only seen by users who have been authenticaded. You are one of the lucky ones!
+    </ion-card-content>
+  </ion-card>
+  <ion-button (click)="logout()" expand="block" type="submit" class="ion-no-margin">Click here to logout</ion-button>
+</ion-content>
