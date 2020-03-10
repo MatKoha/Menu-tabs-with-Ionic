@@ -27,4 +27,18 @@
     </ion-card-content>
   </ion-card>
 
+  <ion-grid>
+    <ion-row>
+      <ion-col align-self-center>
+        <ion-button [routerLink]="['../menu/register']" expand="block" color="primary">Register</ion-button>
+
+        <span class="divider line one-line">or</span>
+
+        <span class="already">Already a user?</span>
+
+        <ion-button [routerLink]="['../menu/login']" expand="block" color="danger">Sign In</ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
